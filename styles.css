@@ -1,0 +1,167 @@
+* {
+    font-family: 'poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    padding-top: 35px;
+
+
+}
+
+h2 {
+
+    color: #333;
+    font-size: 85px;
+    font-weight: 500;
+    margin-top: 100px;
+    margin-left: 25px;
+
+}
+
+span {
+    color: #017143;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+p {
+    font-size: 30px;
+    margin-left: 30px;
+    margin-right: 750px;
+    margin-top: 30px;
+}
+
+button {
+    font-size: 23px;
+    background: #017143;
+    color: aliceblue;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    padding: 15px 40px;
+    margin-left: 60px;
+    margin-top: 20px;
+
+}
+
+.logo {
+    width: 80px;
+    margin-left: 20px;
+}
+
+.starbucks {
+    width: 60px;
+    position: relative;
+    align-items: center;
+    cursor: pointer;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.starbucks:hover {
+    transform: translateY(-25px);
+    transition: 0.8s;
+}
+
+.bigger {
+    width: 250px;
+    position: absolute;
+    top: 440px;
+    right: 120px;
+    margin-top: 40px;
+    
+   
+
+}
+
+.inicial {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.biggerbox {
+
+    width: 600px;
+    display: flex;
+    justify-content: right;
+
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    
+    
+}
+
+.circulo {
+background-color: #017143;
+position: absolute;
+width: 100%;
+height: 100%;
+left: 0;
+top: 0;
+clip-path: circle(551px at right 687px);
+}
+
+
+@media screen and (max-width: 600px) {
+    body{
+        width: 100vw;
+        height: 100vh;
+        padding: 0;
+        margin: 0;
+        display: block;
+    }
+
+    .navbar-logo {
+        background-color: #295C3F;    
+    }
+    .circulo {
+        
+        clip-path: circle(160px at right 430px);
+    }
+
+    .bigger {
+        width: 80px;
+        top: 345px;
+        right: 45px;
+    }
+
+    .menu {
+        width: 50px;
+        margin-top: 190px;
+        margin-left: 150px;
+    }
+
+    h2 {
+        display: inline-block;
+        font-size: 20px;
+        margin-top: 220px;
+    }
+
+    span {
+        display: inline-block;
+        font-size: 40px;
+    }
+
+    p {
+        display: none;
+    }
+
+    button {
+        font-size: 15px;
+        padding: 10px 15px ;
+    }
+
+    .inicial {
+        justify-content: center;
+    }
+}
