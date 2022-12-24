@@ -15,9 +15,9 @@ body {
 h2 {
 
     color: #333;
-    font-size: 85px;
+    font-size: 75px;
     font-weight: 500;
-    margin-top: 100px;
+    margin-top: 60px;
     margin-left: 25px;
 
 }
@@ -29,7 +29,7 @@ span {
 }
 
 p {
-    font-size: 30px;
+    font-size: 25px;
     margin-left: 30px;
     margin-right: 750px;
     margin-top: 30px;
@@ -96,9 +96,7 @@ button {
 .menu {
     display: flex;
     justify-content: center;
-    margin-top: 120px;
-    
-    
+    margin-top: 0px;
 }
 
 .circulo {
@@ -111,6 +109,23 @@ top: 0;
 clip-path: circle(551px at right 687px);
 }
 
+#green-coffe {
+    width: 90px;
+}
+
+#purple-coffe {
+    width: 105px;
+}
+
+#pink-coffe {
+    width: 90px;
+}
+
+#footer-img{
+    display: none;
+}
+
+
 
 @media screen and (max-width: 600px) {
     body{
@@ -119,10 +134,12 @@ clip-path: circle(551px at right 687px);
         padding: 0;
         margin: 0;
         display: block;
+        background-color:#1E3932;
     }
 
     .navbar-logo {
-        background-color: #295C3F;    
+        padding: 10px;
+        background-color:#017143;  
     }
     .circulo {
         
@@ -136,15 +153,16 @@ clip-path: circle(551px at right 687px);
     }
 
     .menu {
-        width: 50px;
-        margin-top: 190px;
-        margin-left: 150px;
+        width: 100vw;      
+        background-color: #1E3932;
+        padding: 7px;
     }
 
     h2 {
         display: inline-block;
-        font-size: 20px;
-        margin-top: 220px;
+        font-size: 30px;
+        margin-top: 150px;
+        color: #cfd7d5
     }
 
     span {
@@ -159,9 +177,30 @@ clip-path: circle(551px at right 687px);
     button {
         font-size: 15px;
         padding: 10px 15px ;
+        background-color:#017143;  
     }
 
     .inicial {
         justify-content: center;
     }
+
+    #green-coffe {
+    width: 55px;
+    }
+
+    #purple-coffe {
+        width: 60px;
+    }
+
+    #pink-coffe {
+        width: 55px;
+    }
+
+    #footer-img{
+        margin-top: 20px;
+        margin-left: 56px;
+        width:110px;
+        display: inline-block;
+    }
+
 }
